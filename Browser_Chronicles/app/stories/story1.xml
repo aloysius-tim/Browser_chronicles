@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<story>
+  <steps>
+    <step id="1" type="multiplechoice">
+      <title>1 - 1er décembre1949 : Naissance à Medellin</title>
+      <description>&lt;p&gt;Pablo Escobar naît dans une famille pauvre de la ville de Rionegro, dans le département d'Antioquia, dans une Colombie marquée par la crise des années 1950. Troisième d'une famille de sept enfants, il grandit dans une hutte sans électricité ni eau courante. Son père, Abel de Jésus Escobar, était un paysan, sa mère institutrice qui lui donne le prénom de Pablo en référence à Saint Vincent de Paul.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;img src="data:image/vnd.microsoft.icon;base64,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Bf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQWcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGDy0yBQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUFnAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFBQVVBQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBXoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1cp0QBQUFnAUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBa8GDy0yAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANXKdEAUFBVUFBQWcBQUFvwUFBf8FBQX/BQUF/wUFBf8FBQX/BQUF/wUFBf8FBQXfBQUFrwUFBXoFCx0gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AAAD8AAAAPAAAADwAAAA+AAAAfgAAAH8AAAD+AAAAfAAAADwAAAA8AAAAPAAAADwAAAA+AAAAfAAAADwAAAA4AAAAP4AAAf+AAAH/gAAB/4AAAf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAB/4AAA//AAAf/8AAf8=" data-filename="favicon.ico" style="width: 32px;"&gt;&lt;br&gt;&lt;/p&gt;</description>
+      <image url="http://t3.gstatic.com/images?q=tbn:ANd9GcSkquZBd4XzgB1JiAgQV95hOaxW7EFFGd-oWFVxSz7Sxzgk9bXgmuk_PaI"/>
+      <availablenextsteps>
+        <nextstep>2</nextstep>
+        <nextstep>3</nextstep>
+      </availablenextsteps>
+    </step>
+    <step id="3" type="memory">
+      <title>3 - 1975 : début du trafic de cocaïne</title>
+      <description>En 1975, il s’engage à vendre 14kg de cocaïne au baron de la drogue de Medellin, Fabio Restrepo. Ce dernier ne voit en Escobar qu’un vulgaire dealer. Il le sous-estime. 3 semaines plus tard, Restrepo est retrouvé mort. Escobar devient alors le patron de la drogue à Medellin</description>
+      <image url="https://images.rapgenius.com/51594b7755dd2d607803138084498de9.640x425x1.jpg"/>
+      <deck>
+        <card img="https://images.rapgenius.com/51594b7755dd2d607803138084498de9.640x425x1.jpg">MAT</card>
+        <card img="https://images.rapgenius.com/51594b7755dd2d607803138084498de9.640x425x1.jpg">SOF</card>
+      </deck>
+      <availablenextsteps>
+        <nextstep>4</nextstep>
+      </availablenextsteps>
+    </step>
+    <step id="2" type="riddle">
+      <title>2 - 1982 : élu au parlement colombien</title>
+      <image url="http://static2.7sur7.be/static/photo/2015/3/8/7/20150909162607/media_xll_7988002.jpg"/>
+      <description>Pablo Escobar est élu en 1982 comme député adjoint/alternatif à la Chambre des Représentants au Congrès Colombien dans les rangs d'une dissidence du Parti libéral Colombien mais son élection est finalement invalidée pour financement illégal de sa campagne. </description>
+      <riddle>
+        <question>que tient pablo dans sa main ?</question>
+        <answer>un micro</answer>
+      </riddle>
+      <availablenextsteps>
+        <nextstep>5</nextstep>
+      </availablenextsteps>
+    </step>
+    <step id="4" type="multiplechoice">
+      <title>4 -1980 : Ascension du cartel</title>
+      <image url="http://static.blastingnews.com/media/photogallery/2015/10/23/main/cartel-de-medellin-veja-o-que-aconteceu-com-eles_470409.jpg"/>
+      <description>Durant les années 1980, Escobar et le cartel de Medellín deviennent célèbres. Le cartel de Medellín contrôle la plupart des entrées de cocaïne aux États-Unis, au Mexique, à Puerto Rico et en République dominicaine. La cocaïne provient essentiellement du Pérou et de Bolivie. La cocaïne de Colombie est alors considérée de qualité inférieure. Son réseau de distribution s’étendra jusqu'en Asie.</description>
+      <availablenextsteps>
+        <nextstep>1</nextstep>
+        <nextstep>5</nextstep>
+        <nextstep>6</nextstep>
+      </availablenextsteps>
+    </step>
+    <step id="5" type="memory">
+      <title>5 - 1984 : Plata o Plomo</title>
+      <description>La corruption et l'intimidation caractérisent la relation entre le système Escobar et les autorités colombiennes. Son système implacable vis-à-vis des autorités se résume à l'expression Plata o Plomo (littéralement, « l'argent ou le plomb »), ce qui signifie : soit tu acceptes l'argent soit tu prends une balle. Escobar terrorise le pays à partir de 1984, ce système entraînant la mort de milliers de personnes, dont des civils, des policiers, des journalistes et des représentants de l’État. Le bras droit d'Escobar, Jhon Jairo Velásquez, a lui-même reconnu avoir organisé les meurtres de 3 000 Colombiens. En même temps, Escobar soudoie de nombreux fonctionnaires, juges et autres politiciens.</description>
+      <image url="https://s-media-cache-ak0.pinimg.com/236x/ec/ca/57/ecca579a142e4cde0641d9dceebedf6e.jpg"/>
+      <deck>
+        <card img="https://images.rapgenius.com/51594b7755dd2d607803138084498de9.640x425x1.jpg">MAT</card>
+        <card img="https://images.rapgenius.com/51594b7755dd2d607803138084498de9.640x425x1.jpg">SOF</card>
+        <card img="https://images.rapgenius.com/51594b7755dd2d607803138084498de9.640x425x1.jpg">PAB</card>
+        <card img="https://images.rapgenius.com/51594b7755dd2d607803138084498de9.640x425x1.jpg">HAM</card>
+        <card img="https://images.rapgenius.com/51594b7755dd2d607803138084498de9.640x425x1.jpg">TIM</card>
+      </deck>
+      <availablenextsteps>
+        <nextstep>9</nextstep>
+      </availablenextsteps>
+    </step>
+    <step id="6" type="multiplechoice">
+      <title>6 - 1989 :Arrivée au sommet</title>
+      <image url="http://2.bp.blogspot.com/-lOmLs7cwBcI/VoVFmawjGiI/AAAAAAAArzE/GQ9FuUWNrr4/s1600/Screen%2BShot%2B2015-12-31%2Bat%2B09.10.29.png"/>
+      <description>En 1989, parmi les 227 milliardaires, il fut classé septième homme le plus riche du monde d'après le magazine Forbes, avec une fortune estimée à 3 milliards de dollars14. À cette époque, le Cartel de Medellín contrôlait 80 % du trafic mondial de cocaïne. Dans la plupart des entreprises, un retour sur investissement de 100 % est largement profitable pour la pérennité de leur activité. Pablo Escobar s'amusait à expliquer que son retour sur investissement était à peu près de 20 000 % : en d'autres termes, pour 1 dollar investi dans son business, il recevait approximativement 200 dollars en retour.</description>
+      <availablenextsteps>
+        <nextstep>7</nextstep>
+        <nextstep>8</nextstep>
+        <nextstep>9</nextstep>
+      </availablenextsteps>
+    </step>
+    <step id="7" type="riddle">
+      <title>7 - 1990 : Chasse à l'homme et bain de sang</title>
+      <image url="http://reseauinternational.net/wp-content/uploads/2013/08/egypt-5-si-1728x800_c.jpg"/>
+      <description>Le 15 février 1990, un sommet anti-drogue réunit à Carthagène les présidents Bush père (États-Unis), Barco (Colombie), Paz Zamora (Bolivie) et García (Pérou). En avril, l'armée colombienne cerne le siège de Pablo Escobar. Il y aura 510 morts mais ce dernier réussira à s'échapper.Pablo Escobar avait créé un véritable groupe armé autour de lui, environ 3 000 tueurs, les sicarios, qui pouvaient être de tout âge. En 1992, à Medellín 6 662 personnes ont été tuées dans des affrontements armés, auxquelles il faut ajouter 1 292 cadavres non identifiés et 967 habitants portés disparus, soit un total de 8 921 morts.</description>
+      <riddle>
+        <question>Avez-vous bien suivis? en quelle année est né Pablo Escobar?</question>
+        <answer>1949</answer>
+      </riddle>
+      <availablenextsteps>
+        <nextstep>8</nextstep>
+      </availablenextsteps>
+    </step>
+    <step id="8" type="multiplechoice">
+      <title>8 - 1991 : Mise à prix</title>
+      <image url="https://s-media-cache-ak0.pinimg.com/736x/f2/34/23/f234237fb7c7fcbd639b4cc5686dd68e.jpg"/>
+      <description>Malgré l'enfermement, l'activité criminelle d'Escobar continua à faire la une des journaux. Escobar fit venir La Moncada et les frères Galeano à La Cathédrale pour les faire assassiner car ils étaient suspectés d'avoir volé le Cartel. Sa prison devient rapidement le nouveau QG du clan de Medellín. Quand les autorités se rendirent compte qu'Escobar continuait ses activités criminelles, il fut décidé de le transférer dans une autre prison le 22 juillet 1992. Mais il fut averti en avance et il s'évada peu de temps avant car il craignait de se faire extrader vers les États-Unis. Sa tête est alors mise à prix pour 6 millions de dollars.</description>
+      <availablenextsteps>
+        <nextstep>5</nextstep>
+        <nextstep>10</nextstep>
+        <nextstep>9</nextstep>
+      </availablenextsteps>
+    </step>
+    <step id="9" type="riddle">
+      <title>9 -  1993 : Los Pepes</title>
+      <image url="http://xpatnation.com/wp-content/uploads/2015/06/65jpg.jpeg"/>
+      <description>Début 1993, un nouveau groupe paramilitaire terroriste « Los Pepes » apparaît, décidé à éliminer Pablo Escobar et le cartel de Medellín, et fait régner la terreur sur la ville. Los Pepes est l'acronyme pour « PErseguidos por Pablo EScobar ». C'est une milice privée qui va lutter contre Escobar avec les mêmes armes qu'il utilise, c'est-à-dire le crime et les attentats. Et qui va grandement aider le gouvernement américain.
+        Après des mois de travail, l'équipe de surveillance du bloc de recherche, réussit un jour à repérer Pablo Escobar dans le quartier de Los Olivos. Contrairement à son habitude, il avait longuement et imprudemment téléphoné à sa femme et à son fils Juan Pablo, dans un hôtel de Bogota.
+        Le commandant Hugo Martínez, à l'aide d'un écran de visualisation de signal de communication, était parvenu devant un pâté de maisons. Mais, plutôt que de faire encercler le quartier, il préféra l'attente, l'infiltration et la surveillance.</description>
+      <riddle>
+        <question>En quelle année se sont constitués les Los Pepes ?</question>
+        <answer>1993</answer>
+      </riddle>
+      <availablenextsteps>
+        <nextstep>11</nextstep>
+      </availablenextsteps>
+    </step>
+    <step id="10" type="end" win="true">
+      <title>10 - Pablo n'est pas tombé</title>
+      <image url="http://static6.businessinsider.com/image/55f2f25cbd86ef0f008b9abb-840-673/pablo%20family.jpg"/>
+      <description>Malgrés la mise à prix de sa tete, Pablo, sa femme et son fils, s'échappent et se volatilisent dans la nature</description>
+    </step>
+    <step id="11" type="end" win="false">
+      <title>11 - 2 Decembre 1993 : La Chute d'Escobar</title>
+      <image url="http://toxicomanie-dz.com/news/upload/images/news_photos/pablo-escobar-mort.jpg"/>
+      <description>Scrutant les fenêtres des maisons, une à une, le commandant Hugo Martínez aperçut à l'une d'elles, un homme corpulent qu'il identifia comme étant Pablo Escobar. Ayant alerté le quartier général local de la PNC (Police Nationale Colombienne), il fut rejoint par un commando. Le plan d'alerte se termina par l'assaut et la mort du parrain alors qu'il tentait de fuir par le toit. Le seul homme de confiance qui ne l'avait jamais trahi et qui le suivit jusqu'à la mort fut son bras droit, un nommé Limon qui était dans la maison lorsque Pablo Escobar fut tué.
+        Limon a été le premier à se faire tuer. Tirant sur les policiers qui avaient encerclé la maison où se trouvait Pablo Escobar, Limon a été atteint de plusieurs projectiles, alors qu'il courait d'un toit pour se réfugier sur un autre toit. Pablo Escobar savait qu'il y avait plusieurs membres de l'autorité qui l'attendaient dehors sur le toit et il entendait les policiers monter les escaliers pour atteindre l'étage où il se trouvait dans la maison. Il n'a pas eu d'autre choix que de sortir en courant et tirer sur tout ce qu'il voyait. Il fut atteint exactement de 12 projectiles dans le corps. Une fois mort étendu sur le toit, les militaires de l'armée colombienne prirent une photo de lui pour montrer leur fierté comme si le corps de Pablo Escobar était un trophée. Deux policiers colombiens qui ont participé à l'opération, ont coupé les deux pointes de la moustache de Pablo Escobar en signe de souvenir et ont laissé son visage avec une moustache du style de celle d'Hitler.
+        Plus tard, le coroner écrivit que Pablo Escobar était décédé d'un projectile qui l'avait atteint à la tête. Mais la confusion vint quand le coroner annonça que ce même projectile qui l'avait atteint derrière l'oreille était le même que ceux du fusil qu'il tenait dans la main. La conclusion pourrait être ce que Pablo Escobar disait souvent : « Je préfère une tombe en Colombie qu'une cellule de prison aux États-Unis et que jamais l'autorité ne mettra fin à ma vie »… Un suicide serait donc à l'origine de son décès. Il se serait tiré lui-même une balle derrière l'oreille droite alors qu'il courait en traversant le toit pour passer du toit de la maison à un toit d'une maison voisine.
+        Quelques minutes plus tard, sa mère se rendit sur les lieux pour voir d'elle-même si c'était vraiment son fils qui venait d'être tué. À première vue, elle remarqua le corps ensanglanté de Limon par terre devant la maison et cria : « Imbéciles, vous n'avez pas tué mon fils, ce n'est pas lui ! », mais lorsqu'elle monta sur le toit, elle tomba en larmes à la vue du corps de celui qui fut le plus grand baron de la drogue. »
+      </description>
+    </step>
+  </steps>
+</story>

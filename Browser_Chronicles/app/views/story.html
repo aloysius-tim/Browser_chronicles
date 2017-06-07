@@ -1,0 +1,70 @@
+<div class="row" ng-if="end">
+  <div ng-if="step._win=='true'" class="alert alert-success" role="alert">
+    <h2>Congrats -> You win !!</h2>
+    <p>In {{localStorageService.get('numberOfStep-'+rootId)}} steps and the minimum number of step possible was {{minPossible}}</p>
+  </div>
+  <div ng-if="step._win=='false'" class="alert alert-danger" role="alert"><h2>So bad :( -> You loose !!</h2></div>
+</div>
+
+<div class="row" ng-if="error">
+  <div class="alert alert-danger" role="alert">{{errorMessage}}</div>
+</div>
+
+<div class="row" ng-if="!error">
+  <div class="jumbotron">
+    <img ng-if="step.image" ng-src="{{step.image._url}}" width="100%"/>
+    <h2 class="text-center">{{step.title}}</h2>
+    <div><p ng-bind-html="step.description"></p></div>
+    <!--<p class="text-center" style="font-size: 1.2em;">{{ step.description }}</p>-->
+    <h4 class="text-center" ng-if="step._type == 'multiplechoice'">To continue, what do you want ?</h4>
+  </div>
+</div>
+
+<div class="row" ng-if="step._type == 'memory'">
+  <div class="row-memory" ng-if="!game.win">
+    <div>There is {{game.unmatchedPairs}} pairs left to match !</div>
+    <div>You must find a: {{game.firstPick.title}} <img src="{{game.firstPick.img}}" style="width:50px; height: 50px; background-color: #00a0f2;"/> </div>
+    <table>
+      <tr ng-repeat="cell in game.grid">
+        <td ng-repeat="card in cell track by $index" ng-click="game.flipCard(card)">
+          <div class="container">
+            <div class="card" ng-hide="card.removed" ng-class="{flipped: card.flipped}">
+              <div class="front"></div>
+              <div class="back" ng-style="{'background-image':'url('+card.img+')'}"><h1>{{card.title}}</h1></div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div class="col-xs-12 text-center" ng-repeat="nextstep in step.availablenextsteps.nextstep" ><button ng-if="game.win" class="btn btn-success btn-lg" ng-click="getNextStep(nextstep)">Continue to the step {{nextstep}}</button></div>
+</div>
+
+<div class="row" ng-if="step._type == 'riddle'">
+  <form class="form-inline" style="text-align: center">
+    <div class="form-group">
+      <label>{{step.riddle.question}}</label>
+      <input type="text" ng-model="$parent.value">
+      <span ng-bind='result'></span>
+    </div>
+  </form>
+</div>
+
+
+<div ng-if="step._type == 'multiplechoice'">
+  <div class="row" ng-repeat="nextstep in step.availablenextsteps.nextstep">
+    <div class="jumbotron">
+      <h2 class="text-center">{{stepxy(nextstep).title}}</h2>
+      <!--<p class="text-left" style="font-size: 1.2em;">{{stepxy(nextstep).description}}</p>-->
+      <div>
+        <button class="btn btn-success btn-lg" ng-if="step.availablenextsteps.nextstep.length > 1" ng-click="choose(nextstep)">Select step {{ nextstep }}</button>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+      <button class="btn btn-danger btn-lg pull-right" ng-if="step.availablenextsteps.nextstep.length > 1" ng-click="getNextStep()">NEXT</button>
+      <button class="btn btn-danger btn-lg pull-right" ng-if="step.availablenextsteps.nextstep.length === 1" ng-click="getNextStep(step.availablenextsteps.nextstep)">NEXT</button>
+  </div>
+</div>
+
+

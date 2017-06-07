@@ -1,0 +1,19 @@
+<h1>Story edition mode :)</h1>
+<div>
+
+  <div class="form-area">
+    <form role="form" ng-submit="submit()">
+      <br style="clear:both">
+      <h3 class="text-center">
+        You will edit the story:  {{story.title}} at step : {{step._id}}
+      </h3>
+      <div class="form-group">
+        <input type="text" class="form-control" id="title" name="title" ng-model="step.title" required>
+      </div>
+
+      <summernote config="options" ng-model="step.description"><span style="font-weight: bold;"></span></summernote>
+
+      <button type="submit" id="submit" name="submit" class="btn btn-success pull-right">Save</button>
+    </form>
+  </div>
+</div>

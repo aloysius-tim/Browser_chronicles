@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<story>
+  <title>Where's the treasure?</title>
+  <summary>
+    A mysterious stranger ran into  you, he gave you a map, and told you it's going to lead you to a treasure.
+  </summary>
+  <steps>
+    <step id="1" type="multiplechoice">
+      <title>First decision</title>
+      <description>A mysterious stranger ran into  you, he gave you a map, and told you it's going to lead you to a treasure.He also told you the remember the word "falimpa"</description>
+      <availablenextsteps>
+        <nextstep>2</nextstep>
+        <nextstep>3</nextstep>
+      </availablenextsteps>
+    </step>
+    <step id="2" type="end" win="false">
+      <title>Stay home</title>
+      <description>A few days later, you read in the news that someone found a treasure with the same map you've got given, too bad! better take risks next time.</description>
+    </step>
+    <step id="3" type="multiplechoice">
+      <title>Go to the island</title>
+      <description>What mean of transportation ? </description>
+      <availablenextsteps>
+        <nextstep>4</nextstep>
+        <nextstep>5</nextstep>
+      </availablenextsteps>
+    </step>
+    <step id="4" type="memory">
+      <title>Plane</title>
+      <description>During the flight you noticed that you've forgotten the map at home, with a small training you will remember the content of the map.</description>
+      <deck>
+        <card img="https://images.rapgenius.com/51594b7755dd2d607803138084498de9.640x425x1.jpg">A</card>
+        <card img="https://images.rapgenius.com/51594b7755dd2d607803138084498de9.640x425x1.jpg">B</card>
+        <card img="https://images.rapgenius.com/51594b7755dd2d607803138084498de9.640x425x1.jpg">C</card>
+      </deck>
+      <availablenextsteps>
+        <nextstep>6</nextstep>
+      </availablenextsteps>
+    </step>
+    <step id="5" type="riddle">
+      <title>Boat</title>
+      <description>A thief stole your map, he told you if you answer to his question, he give it back to you.</description>
+      <riddle>
+        <question>This sailer has an obsession with spinach</question>
+        <answer>popeye</answer>
+      </riddle>
+      <availablenextsteps>
+        <nextstep>6</nextstep>
+      </availablenextsteps>
+    </step>
+    <step id="6" type="multiplechoice">
+      <title>In the island</title>
+      <description>Now you're in the island, there are two ways to go to the location of the treasure</description>
+      <availablenextsteps>
+        <nextstep>7</nextstep>
+        <nextstep>8</nextstep>
+      </availablenextsteps>
+    </step>
+    <step id="7" type="end" win="false">
+      <title>Forest</title>
+      <description>The forest was dense, and you didn't find your way out, you were so exhausted that you passed away and got killed by animal, you should have stayed home.</description>
+    </step>
+    <step id="8" type="riddle">
+      <riddle>
+        <question>What's the word the stranger told you to remember ?</question>
+        <answer>falimpa</answer>
+      </riddle>
+      <title>Risky Pont</title>
+      <description>you crossed the pont, you found the location of the treasure, but it's seems that it's locked out with a kind of password. </description>
+      <availablenextsteps>
+        <nextstep>9</nextstep>
+      </availablenextsteps>
+    </step>
+    <step id="9" type="end" win="true">
+      <title>Got the treasure</title>
+      <description>You locked out the treasure, you're now rich and safe.</description>
+    </step>
+  </steps>
+</story>

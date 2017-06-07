@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE stories [
+  <!ELEMENT stories (story)*>
+  <!ELEMENT story (title|summary)*>
+  <!ATTLIST story
+    id CDATA #REQUIRED
+    source CDATA #REQUIRED>
+  <!ELEMENT title (#PCDATA)>
+  <!ELEMENT summary (#PCDATA)>
+  ]>
+<stories>
+  <story source="/stories/story1.xml" id="1">
+    <title>Pablo escobar 1</title>
+    <summary>Some description about pablo escobar story   :</summary>
+  </story>
+  <story source="/stories/story2.xml" id="2">
+    <title>Treasure</title>
+    <summary>Can you find the treasure hidden in the island:</summary>
+  </story>
+  <story source="/stories/story3.xml" id="3">
+    <title>What show is this?</title>
+    <summary> Guess the tv-shows that the pictures represent:</summary>
+  </story>
+</stories>

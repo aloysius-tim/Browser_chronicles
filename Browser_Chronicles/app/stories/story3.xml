@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<story>
+  <title>Poly-Guess what?</title>
+  <summary>
+    Guess the tv-show that the pictures represent
+  </summary>
+  <steps>
+    <step id="1" type="riddle">
+      <riddle>
+        <question>Clue: I am the danger!</question>
+        <answer>Breaking bad</answer>
+      </riddle>
+      <image url="https://pbs.twimg.com/profile_images/378800000855396544/770e7d1bbd0138d276ad372d317145f8.jpeg"/>
+      <description>What show is this?</description>
+      <availablenextsteps>
+        <nextstep>2</nextstep>
+      </availablenextsteps>
+    </step>
+    <step id="2" type="riddle">
+      <riddle>
+        <question>Clue:I'll be there for you!</question>
+        <answer>friends</answer>
+      </riddle>
+      <image url="http://digitalspyuk.cdnds.net/15/32/1600x800/landscape-ustv-friends-cast-group-shot.jpg"></image>
+      <description>What show is this?</description>
+      <availablenextsteps>
+        <nextstep>3</nextstep>
+      </availablenextsteps>
+    </step>
+    <step id="3" type="riddle">
+      <riddle>
+        <question>Clue: I'm not a super man!</question>
+        <answer>scrubs</answer>
+      </riddle>
+      <image url="http://cdn.exstreamist.com/wp-content/uploads/2015/03/scrubs-on-netflix.jpg"/>
+      <description>What show is this?</description>
+      <availablenextsteps>
+        <nextstep>4</nextstep>
+      </availablenextsteps>
+    </step>
+    <step id="4" type="riddle">
+      <riddle>
+        <question>Clue:Winter is comming</question>
+        <answer>game of thrones</answer>
+      </riddle>
+      <image url="http://www.likecroatia.com/wp-content/uploads/2014/06/Game-of-Thrones-Iron-Throne.jpg"/>
+      <description>What show is this?</description>
+      <availablenextsteps>
+        <nextstep>5</nextstep>
+      </availablenextsteps>
+    </step>
+    <step id="5" type="riddle">
+      <riddle>
+        <question>Clue:Whisteria lane</question>
+        <answer>desperate housewives</answer>
+      </riddle>
+      <image url="http://img1.ndsstatic.com/wallpapers/5ae538b7f3627dc6913c00fa469e5f2b_large.jpeg"/>
+      <description>What show is this?</description>
+      <availablenextsteps>
+        <nextstep>6</nextstep>
+      </availablenextsteps>
+    </step>
+    <step id="6" type="riddle">
+      <riddle>
+        <question>Clue:DOOH! HUM donuts</question>
+        <answer>the simpsons</answer>
+      </riddle>
+      <image url="http://s1.dmcdn.net/Nwvbn/1280x720-2cb.jpg"/>
+      <description>What show is this?</description>
+      <availablenextsteps>
+        <nextstep>7</nextstep>
+      </availablenextsteps>
+    </step>
+    <step id="7" type="end" win="true">
+      <image uri="http://sd.keepcalm-o-matic.co.uk/i/congrats-you-have-won.png"></image>
+      <description>Congrats you guessed all the shows</description>
+    </step>
+  </steps>
+</story>
